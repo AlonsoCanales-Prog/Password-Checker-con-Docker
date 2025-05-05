@@ -25,15 +25,17 @@ Este es un microservicio para validar la seguridad de contraseñas usando Node.j
    http://localhost:3000
 
 Estructura del proyecto:
-      password-checker/
-      │
-      ├── Dockerfile
-      ├── package.json
-      ├── blacklist.txt
-      ├── src/
-      │   └── server.js
-      └── public/
-          └── index.html
+```
+password-checker/
+│
+├── Dockerfile
+├── package.json
+├── blacklist.txt
+├── src/
+│   └── server.js
+└── public/
+    └── index.html
+```
 
 ### Notas
 Si modificas server.js, blacklist.txt o index.html, necesitas reconstruir la imagen con docker build y reiniciar el contenedor.
