@@ -17,12 +17,12 @@ Este es un microservicio para validar la seguridad de contraseñas usando Node.j
 
 2. Construye la imagen en Docker:
    docker build -t password-checker:1.0 .
-   ![Vista previa](img/upload_docker.png)
+   ![Vista previa](password-checker/img/upload_docker.png)
 
 
 4. Ejecuta el contenedor:
    docker run -d -p 3000:3000 password-checker:1.0
-   ![Vista previa](img/upload_port.png)
+   ![Vista previa](password-checker/img/upload_port.png)
 
 6. Abre tu navegador en:
    http://localhost:3000
@@ -46,19 +46,19 @@ Puedes añadir más contraseñas comunes en blacklist.txt.
 
 ### Prueba 1
 Contraseña: hi
-![Vista previa](img/prueba_1.png)
+![Vista previa](password-checker/img/prueba_1.png)
 
 ### Prueba 2
 Contraseña: hicomoestas
-![Vista previa](img/prueba_2.png)
+![Vista previa](password-checker/img/prueba_2.png)
 
 ### Prueba 3
 Contraseña: Hicomoestas
-![Vista previa](img/prueba_3.png)
+![Vista previa](password-checker/img/prueba_3.png)
 
 ### Prueba 4
 Contraseña: Hicomoestas@
-![Vista previa](img/prueba_4.png)
+![Vista previa](password-checker/img/prueba_4.png)
 
 ### Licencia
 MIT
