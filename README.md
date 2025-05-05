@@ -13,7 +13,7 @@ Este es un microservicio para validar la seguridad de contraseñas usando Node.j
 
 ### Instalación
 1. Clona el repositorio:
-   git clone...
+   git clone https://github.com/AlonsoCanales-Prog/Password-Checker-con-Docker.git
 
 2. Construye la imagen en Docker:
    docker build -t password-checker:1.0 .
